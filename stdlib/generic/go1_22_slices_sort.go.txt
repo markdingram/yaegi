@@ -7,7 +7,7 @@
 package slices
 
 import (
-	"cmp"
+	// "cmp" - avoid cmp/_.go redeclared in this block
 	"math/bits"
 )
 

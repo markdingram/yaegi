@@ -14,10 +14,10 @@ var mapsSource string
 //go:embed go1_22_slices_slices.go.txt
 var slicesSource string
 
-/*
 //go:embed go1_22_slices_sort.go.txt
 var slicesSource1 string
 
+/*
 //go:embed go1_22_slices_zsortanyfunc.go.txt
 var slicesSource2 string
 
@@ -33,8 +33,8 @@ var Sources = [...]string{
 	cmpSource,
 	mapsSource,
 	slicesSource,
+	slicesSource1,
 	// FIXME(marc): support the following.
-	// slicesSource1,
 	// slicesSource2,
 	// syncAtomicSource,
 	// syncSource,
